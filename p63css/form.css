@@ -1,0 +1,82 @@
+/* صفحة اثبات القيد والشكوي */
+body{
+background-color: white;
+}
+.register{
+    padding: 30px 40px;
+    background-color: white;
+    margin: 150px auto 0 auto;
+    height: auto;
+    border-radius: 20px;
+    box-shadow:  20px 20px 90px #283a5ae6
+}
+.register header{
+    width: 100%;
+    height: auto;
+}
+.register header h1{
+    text-align: center;
+    color: #283a5ae6;
+}
+.register  .form-row {
+    margin-bottom: 20px;
+}
+.register  .form-group label,
+
+.register  .form-row label{
+float: right;
+font-weight: bold;
+}
+.register form .button{
+    width: 100%;
+    height: 40px;
+    margin: auto;
+}
+.register form button{
+    background-color: #283a5ae6;
+    color: white;
+    width: 100%;
+    height: 45px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+}
+/* الشكوة */
+.complain{
+    margin:50px  auto 0 auto;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 20px;
+    position: relative;
+    box-shadow:  20px 20px 90px #3759bf
+}
+.complain button{
+    background-color: navy;
+    color: white;
+    width: 100px;
+    height: 45px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    right: 50px;
+    bottom: 10px;
+}
+/* في حالة ارسال الشكوة */
+.done{
+    width: 300px;
+    height: 100px;
+    background-color: LightGreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.done p{
+    font-size: 20px;
+    color: white;
+}
+
+
